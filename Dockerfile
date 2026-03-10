@@ -17,7 +17,7 @@ LABEL org.opencontainers.image.title="ZeroTier" \
       org.opencontainers.image.version="v${ZT_VERSION}" \
       org.opencontainers.image.description="ZeroTier One as Docker Image" \
       org.opencontainers.image.licenses="GPL" \
-      org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation/tree/main/docker/zerotier"
+      org.opencontainers.image.source="https://github.com/gsmlg-ci/zerotier"
 
 COPY --from=builder /src/zerotier-one /usr/sbin/zerotier-one
 
